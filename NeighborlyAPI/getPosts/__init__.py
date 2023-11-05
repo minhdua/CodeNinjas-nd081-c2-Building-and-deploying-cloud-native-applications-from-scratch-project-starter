@@ -12,9 +12,9 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     try:
         url = os.environ["MinhDuaConnectionDB"]  # TO_DO: Update with appropriate MongoDB connection information
         client = pymongo.MongoClient(url)
-        database = client['azure']
+        database = client[os.environ["MinhDuaDatabase"]]
         collection = database['posts']
-
+        
         result = collection.find({})
         result = dumps(result)
 
