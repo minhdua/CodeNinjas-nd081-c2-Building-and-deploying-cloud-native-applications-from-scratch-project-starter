@@ -1,9 +1,11 @@
 {
-  "IsEncrypted": true,
+  "IsEncrypted": false,
   "Values": {
-    "FUNCTIONS_WORKER_RUNTIME": "CfDJ8KvJ6DmYyMJCgkPKMHi9yggxobSNL+EiBudqjTbkN08MV8FPGx7WqKyJXi1vK5/3O48YnxQvGjJtBiH2gbzh8qUxrA2On+1JRf1xQeWwdKwATocSwT1CMT9SN2gtzXs0ZQ=="
-  },
-  "ConnectionStrings": {},
-
-  "AzureWebJobsStorage": ""
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=minhduastorage;AccountKey=uMvB2uNSBsdS9w0l+Ssk6aN16ISS3ZoxhR9+o4x3ANBgqGdktpkT/0bNCrDNkZp57ewmD/vMc3iz+AStsG3uaw==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "FUNCTIONS_EXTENSION_VERSION": "~4",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=minhduastorage;AccountKey=uMvB2uNSBsdS9w0l+Ssk6aN16ISS3ZoxhR9+o4x3ANBgqGdktpkT/0bNCrDNkZp57ewmD/vMc3iz+AStsG3uaw==;EndpointSuffix=core.windows.net",
+    "WEBSITE_CONTENTSHARE": "minhdua-funcb554",
+    "MinhDuaDB": "minhdua-db"
+  }
 }
