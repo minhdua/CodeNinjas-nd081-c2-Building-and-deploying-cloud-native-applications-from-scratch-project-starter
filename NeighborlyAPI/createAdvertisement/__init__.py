@@ -10,7 +10,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         try:
             url = os.environ["MinhDuaConnectionDB"]  # TO_DO: Update with appropriate MongoDB connection information
             client = pymongo.MongoClient(url)
-            database = client[os.environ["MinhDuaDatabase"]]
+            database = client[os.environ["MinhDuaDB"]]
             collection = database['advertisements']
 
             rec_id1 = collection.insert_one(eval(request))
