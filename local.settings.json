@@ -6,6 +6,7 @@
     "FUNCTIONS_EXTENSION_VERSION": "~4",
     "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=minhduastorage;AccountKey=uMvB2uNSBsdS9w0l+Ssk6aN16ISS3ZoxhR9+o4x3ANBgqGdktpkT/0bNCrDNkZp57ewmD/vMc3iz+AStsG3uaw==;EndpointSuffix=core.windows.net",
     "WEBSITE_CONTENTSHARE": "minhdua-funcb554",
-    "MinhDuaDB": "minhdua-db"
+    "MinhDuaDB": "minhdua-db",
+    "MinhDuaConnectionDB":"mongodb://minhdua-cosmosmongodb:w9XTFomQCFCIIxmddmdVjCyVbOoVNZfp4kM2EIHAzUmpK3aETX9F3mliRme4bwvCNJUg1fMTn9YyACDbnuBsmg%3D%3D@minhdua-cosmosmongodb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@minhdua-cosmosmongodb@"
   }
 }
